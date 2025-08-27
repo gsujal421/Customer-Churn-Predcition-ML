@@ -45,5 +45,5 @@ else:
 st.divider()
 
 st.write("Developed by Sujal Gupta")
-st.write("Source Code: [GitHub Repository](https://github.com/sujalgupta/customer-churn-prediction)")
-st.write("Demo: [Streamlit App](https://your-streamlit-app-url)")
+st.write("Source Code: [GitHub Repository](https://github.com/gsujal421/Customer-Churn-Prediction-ML.git)")
+
