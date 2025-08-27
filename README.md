@@ -1,11 +1,11 @@
-## Customer-Churn-Predcition-ML
+# Customer-Churn-Predcition-ML
 
 An end-to-end Machine Learning + Streamlit App project to analyze customer behavior and predict churn. The project demonstrates the complete workflow of data preprocessing, model training, and deployment with Docker.
 
 ⚠️ Disclaimer: Predictions are for demonstration purposes only and not intended for real-world decision-making.
 ---
 
-# Project Overview
+## Project Overview
 
 🛠️ Built a machine learning pipeline to predict whether a customer is likely to churn.
 
@@ -16,7 +16,7 @@ An end-to-end Machine Learning + Streamlit App project to analyze customer behav
 📦 Containerized with Docker for easy deployment and reproducibility.
 ---
 
-# Tech Stack
+## Tech Stack
 
 | Category      | Tools/Frameworks            |
 | ------------- | --------------------------- |
@@ -25,6 +25,8 @@ An end-to-end Machine Learning + Streamlit App project to analyze customer behav
 | Visualization | Matplotlib, Seaborn         |
 | UI/Deployment | Streamlit, Docker           |
 ---
+
+## Repository Structure
 
 customer-churn-prediction/
 │── LICENSE
@@ -47,7 +49,7 @@ customer-churn-prediction/
     └── app.py              # Streamlit app
 ---
 
-# Run with Docker
+## Run with Docker
 Build the Docker image
 docker build -t churn-app .
 Run the container
@@ -56,12 +58,12 @@ docker run -p 8501:8501 churn-app
 Open in browser: http://localhost:8501
 ---
 
-# Results & Limitations
+## Results & Limitations
 
 ✅ The model achieved reasonable performance on the given dataset.
 ⚠️ Predictions are not fully reliable due to dataset limitations.
 
-# Next Steps for Improvement:
+## Next Steps for Improvement:
 
 Feature engineering with domain insights.
 
@@ -69,7 +71,7 @@ Expanding dataset (more balanced, diverse).
 
 Trying advanced models (XGBoost, LightGBM, Neural Networks).
 ---
-# Learning Outcomes
+## Learning Outcomes
 
 Built an end-to-end ML pipeline.
 
