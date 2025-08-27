@@ -14,6 +14,7 @@ An end-to-end Machine Learning + Streamlit App project to analyze customer behav
 🎛️ Developed an interactive Streamlit web app for predictions.      
 
 📦 Containerized with Docker for easy deployment and reproducibility.
+
 ---
 
 ## Tech Stack
@@ -27,6 +28,7 @@ An end-to-end Machine Learning + Streamlit App project to analyze customer behav
 ---
 
 ## Repository Structure
+tree /F > structure.txt
 
 customer-churn-prediction/
 │── LICENSE
@@ -47,6 +49,7 @@ customer-churn-prediction/
 │
 └── src/
     └── app.py              # Streamlit app
+    
 ---
 
 ## Run with Docker
@@ -56,6 +59,7 @@ Run the container
 docker run -p 8501:8501 churn-app
 
 Open in browser: http://localhost:8501
+
 ---
 
 ## Results & Limitations
@@ -69,7 +73,8 @@ Feature engineering with domain insights.
 
 Expanding dataset (more balanced, diverse).
 
-Trying advanced models (XGBoost, LightGBM, Neural Networks).
+Trying advanced models (XGBoost, LightGBM).
+
 ---
 ## Learning Outcomes
 
